@@ -1,12 +1,75 @@
-body {
-    background-color: rgb(0, 0, 0);
-    .titulos {
-        color: rgba(255, 0, 0, 0.877);   
-      }
+body{
+    color: yellow;
+    background-color: rgb(46, 44, 44);
+    .datos-propios{
+        border-radius: 15%;
+        background-color: blueviolet;}
+        .contactos{
+            border-radius: 80%;
+            width: 700px;
+            background-color:  blueviolet;
+            
+        }
+            
+        .contenedor{
+            
+            height: 280px;
+            width: 950px;
+            background-color: blueviolet;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-radius: 80%;
+            align-items: center;
+            
+
+        }
+        .linkslaborales{
+            background-color:blueviolet;
+            height: 80px;
+            width: 400px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+            border-radius: 600%;
+            
+
+        }
+        .colorletra{
+            color: yellow;}
+        
+
+        .github{
+            color: yellow;
+            height: 200px;
+            width: 320px;
+            border-radius: 100%;
+            background-color: rgb(90, 3, 3)
+        
+        
+        }
+
+        
+        .linkedin{
+            color: yellow;
+            height: 200px;
+            width: 320px;
+            border-radius: 100%;
+            background-color:  rgb(90, 3, 3)
+        
+        }    
+    }
+        
+    
+    
 
 
-  .contactos {background-color: rgb(23, 192, 192);
-        border-radius: 25%;}
-        .datos-propios{background-color: blueviolet; border-radius: 10%;}
-  
-}
+
+
+
+
+
+
+
+
